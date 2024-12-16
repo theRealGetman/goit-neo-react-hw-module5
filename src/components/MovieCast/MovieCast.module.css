@@ -1,0 +1,28 @@
+.cast {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.castItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.castItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.castImg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #e5e5e5;
+}
+
+.castName {
+  font-weight: 500;
+  font-size: 20px;
+}
